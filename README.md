@@ -3,21 +3,19 @@
 Made using Android Studio and Firebase.
 Languages used: Java.
 
-<img width="403" alt="Screenshot 2023-09-08 at 7 03 09 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/71985fda-7080-4dee-ad7e-6b3d3c9a1c08">
+<img width="383" alt="Screenshot 2023-09-08 at 7 25 19 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/3758d46c-b6b7-4993-93d3-d62591394642">
 
 ## User Screens
-<img width="387" alt="Screenshot 2023-09-08 at 7 03 45 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/5913cf2f-ada7-48a4-b03b-b6d9730ef444">
-<img width="389" alt="Screenshot 2023-09-08 at 7 04 00 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/01c01cf2-0d4a-4ff3-a06f-277b181c36d2">
-<img width="389" alt="Screenshot 2023-09-08 at 7 04 11 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/71f8be31-2c38-47fd-a722-3b441165d387">
-<img width="383" alt="Screenshot 2023-09-08 at 7 10 10 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/d2b64f0c-78d0-49e3-9263-5c48c2ee58f8">
-<img width="382" alt="Screenshot 2023-09-08 at 7 10 21 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/cb9dba85-71b6-4d63-9741-099580a3e94f">
-<img width="383" alt="Screenshot 2023-09-08 at 7 10 35 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/97549ffe-2831-45f9-9d66-adf6a9ffa747">
-<img width="382" alt="Screenshot 2023-09-08 at 7 10 51 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/aa661af0-ee17-4a57-b8d1-c481f603fbb5">
-
-<img width="385" alt="Screenshot 2023-09-08 at 7 15 40 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/eb7a67e9-0019-4de8-8d85-2ee3b6c48765">
-
+<img width="387" alt="Screenshot 2023-09-08 at 7 26 09 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/6886e9da-a717-427c-8b29-b12c77bd5874">
+<img width="389" alt="Screenshot 2023-09-08 at 7 26 21 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/2944fa80-9eca-411b-b5ca-711fdbb52107">
+<img width="391" alt="Screenshot 2023-09-08 at 7 26 40 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/d44ec11e-274d-4b83-9d86-8d2b0a310ed7">
+<img width="385" alt="Screenshot 2023-09-08 at 7 26 51 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/a697f4f7-dbab-4b37-ac26-ccb1897616a3">
+<img width="402" alt="Screenshot 2023-09-08 at 7 27 01 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/9a74ce83-41b2-4552-8fa4-a371b6e9fe7f">
+<img width="387" alt="Screenshot 2023-09-08 at 7 27 10 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/120d5223-7c8a-4348-a9bc-1367b8aae7e7">
+<img width="386" alt="Screenshot 2023-09-08 at 7 27 19 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/6369a132-b555-4796-95b1-6e0d07b6f201">
+<img width="382" alt="Screenshot 2023-09-08 at 7 27 29 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/d19f9341-f6d2-47f2-a0bd-ba3d97a1d26e">
 
 ## Admin Screen
-<img width="385" alt="Screenshot 2023-09-08 at 7 09 16 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/42ed04e8-b182-46b5-8557-dfcde6bb5e8d">
+<img width="390" alt="Screenshot 2023-09-08 at 7 27 52 PM" src="https://github.com/diyaatalwar/Sahaayak-Android/assets/143082387/f32e03b6-f02c-4f54-9283-8f23d5eb0318">
 
 
