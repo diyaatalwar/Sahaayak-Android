@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResourcesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Resources"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="571dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="20sp"
+                    android:text="Life Skills" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/ls1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Driver's License" />
+
+                        <Button
+                            android:id="@+id/ls2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Open Bank Account" />
+
+                        <Button
+                            android:id="@+id/ls3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Public Speaking" />
+
+                        <Button
+                            android:id="@+id/ls4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:background="@drawable/button_background"
+                            android:layout_margin="10dp"
+                            android:text="Link 4" />
+
+                        <Button
+                            android:id="@+id/ls5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:background="@drawable/button_background"
+                            android:layout_margin="10dp"
+                            android:text="Link 5" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="20sp"
+                    android:text="Interview Prep" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Build your resume" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="GFG Interview Prep" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:text="Sample Interview Questions"
+                            android:background="@drawable/button_background" />
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 4" />
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 5" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="20sp"
+                    android:text="Educational Content" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:text="Coursera"
+                            android:background="@drawable/button_background" />
+
+                        <Button
+                            android:id="@+id/b2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Udemy" />
+
+                        <Button
+                            android:id="@+id/b3"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 3" />
+
+                        <Button
+                            android:id="@+id/b4"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 4" />
+
+                        <Button
+                            android:id="@+id/b5"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 5" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="20sp"
+                    android:text="Community Service" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Volunteering with India" />
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 2" />
+
+                        <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 3" />
+
+                        <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 4" />
+
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="100dp"
+                            android:layout_height="75dp"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/button_background"
+                            android:text="Link 5" />
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

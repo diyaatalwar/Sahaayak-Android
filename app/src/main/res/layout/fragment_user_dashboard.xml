@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".UserDashboardFragment">
+
+    <LinearLayout
+        android:id="@+id/heading"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, XXX"
+            android:textSize="25sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white" /> <!-- add user name in place of XXX here -->
+
+        <TextView
+            android:id="@+id/greeting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Sahaayak"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/scroll"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scrollbars="none"-->
+<!--        android:layout_below="@+id/heading">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/cards"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/card_view_1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                card_view:cardCornerRadius="10dp"-->
+<!--                android:layout_margin="10dp" > &lt;!&ndash; add onclick listener &ndash;&gt;-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/badgesCards"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/badgesText"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Your Badges"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:fontFamily="@font/carlito"-->
+<!--                        android:textSize="25sp"-->
+<!--                        android:textColor="@color/blue" />-->
+
+<!--                    <HorizontalScrollView-->
+<!--                        android:id="@+id/badgesScroll"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:scrollbars="none">-->
+
+<!--                        &lt;!&ndash; add badges here &ndash;&gt;-->
+
+<!--                    </HorizontalScrollView>-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/card_view_2"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                card_view:cardCornerRadius="10dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:onClick="openResourcesScreen">-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/resourcesCards"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/resourcesText"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Resources"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:fontFamily="@font/carlito"-->
+<!--                        android:textSize="25sp"-->
+<!--                        android:textColor="@color/blue" />-->
+
+<!--                    <HorizontalScrollView-->
+<!--                        android:id="@+id/resourcesScroll"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:scrollbars="none">-->
+<!--                        &lt;!&ndash; add resources here (card views etc.) &ndash;&gt;-->
+<!--                    </HorizontalScrollView>-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/card_view_3"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                card_view:cardCornerRadius="10dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:onClick="openJobScreen">-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/bulletinCards"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/bulletinText"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Bulletin Board"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:fontFamily="@font/carlito"-->
+<!--                        android:textSize="25sp"-->
+<!--                        android:textColor="@color/blue" />-->
+
+<!--                    <HorizontalScrollView-->
+<!--                        android:id="@+id/bulletinScroll"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:scrollbars="none">-->
+<!--                        &lt;!&ndash; add jobs here (card views etc.)&ndash;&gt;-->
+<!--                    </HorizontalScrollView>-->
+
+<!--                </LinearLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+<!--        </LinearLayout>-->
+
+<!--    </ScrollView>-->
+
+</RelativeLayout>

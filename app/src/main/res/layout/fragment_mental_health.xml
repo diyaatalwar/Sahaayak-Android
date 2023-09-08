@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MentalHealthFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:layout_margin="5dp"
+                android:text="Mental Health Quiz"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age" />
+
+                <EditText
+                    android:id="@+id/ageEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"/>
+
+            <RadioGroup
+                android:id="@+id/genderRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/maleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"/>
+
+                <RadioButton
+                    android:id="@+id/femaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"/>
+
+                <RadioButton
+                    android:id="@+id/otherRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"/>
+
+            <Spinner
+                android:id="@+id/countrySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:entries="@array/country" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"/>
+
+            <Spinner
+                android:id="@+id/stateSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/state"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Self Employed"/>
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/selfEmployedSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:text="Family History" />
+
+                <RadioGroup
+                    android:id="@+id/familyHistoryRadioGroup"
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/yesRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/noRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment" />
+            <EditText
+                android:id="@+id/work_interfere_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Work Interfere" />
+
+            <EditText
+                android:id="@+id/no_employees_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number of Employees" />
+
+            <EditText
+                android:id="@+id/remote_work_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Remote Work" />
+
+            <EditText
+                android:id="@+id/tech_company_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tech Company" />
+
+            <Button
+                android:id="@+id/Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Score" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</FrameLayout>

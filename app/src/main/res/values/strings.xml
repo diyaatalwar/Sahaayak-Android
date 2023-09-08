@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">fragments_sample</string>
+    <string name="loginRedirectText">Already a user? <u>Click here to login</u></string>
+    <string name="signupRedirectText">New user? <u>Click here to sign up</u></string>
+    <string name="adminRedirectText"><u>Admin login</u></string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="destinationLabel">{destination}</string>
+    <string name="userRedirectText"><u>User Login</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="country">
+        <item>United States</item>
+
+
+    </string-array>
+
+    <string-array name="state">
+        <item>California</item>
+        <item>Texas</item>
+        <item>Florida</item>
+    </string-array>
+</resources>

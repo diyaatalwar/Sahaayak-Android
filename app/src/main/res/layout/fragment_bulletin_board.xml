@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BulletinBoardFragment">
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Opportunities Near You"
+        android:textSize="20sp"
+        android:fontFamily="@font/carlito"
+        android:textColor="@color/darkblue" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/jobCardsScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/cards1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/clerk"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+
+                card_view:cardCornerRadius="10dp" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Supermarket Clerk"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accountant"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Copywriter"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manager"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/heading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Community Service and Volunteering"
+        android:textSize="20sp"
+        android:fontFamily="@font/carlito"
+        android:textColor="@color/darkblue" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/servicesCardsScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/cards2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cleanliness drive"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit orphan home"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="200dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                card_view:cardCornerRadius="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit old-age home"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/carlito"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
